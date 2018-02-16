@@ -95,6 +95,7 @@ liblttng_ust_la_LIBADD = \
 	-lpthread \
 	-lrt \
 	-lurcu-cds \
+	-lunwind \
 	-ldl \
 	$(top_builddir)/snprintf/libustsnprintf.la \
 	$(top_builddir)/liblttng-ust-comm/liblttng-ust-comm.la \
